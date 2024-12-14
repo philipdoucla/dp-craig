@@ -1,4 +1,4 @@
-# CREPE: Coresets for Robust and Efficient Privacy-preserving Embeddings
+# 🥞 CREPE: Coresets for Robust and Efficient Privacy-preserving Embeddings
 
 ## Overview
 
@@ -10,7 +10,7 @@ User Privacy: Ensuring differential privacy (DP) by injecting noise into gradien
 
 This project explores the integration of CRAIG and DP to create a differentially private coreset, enabling efficient and privacy-preserving training. The key challenge lies in selecting representative subsets using noisy gradients, which introduces randomness and potential inaccuracies.
 
-## Objective
+## Objectives
 
 To evaluate the performance of CRAIG on noisy gradients under differential privacy constraints, analyzing its impact on training time, training/test accuracy, and privacy guarantees.
 
@@ -55,4 +55,5 @@ To evaluate the performance of CRAIG on noisy gradients under differential priva
 - Dan Feldman, Chongyuan Xiang, Ruihao Zhu, and Daniela Rus. Coresets for differentially private k-means clustering and applications to privacy in mobile sensor networks. In Proceedings of the 16th ACM/IEEE International Conference on Information Processing in Sensor Networks, IPSN ’17, page 3–15, New York, NY, USA, 2017. Association for Computing Machinery. ISBN 9781450348904. doi: 10.1145/3055031.3055090. URL https://doi.org/10.1145/3055031.3055090.
 - Baharan Mirzasoleiman, Jeff Bilmes, and Jure Leskovec. Coresets for data-efficient training of machine learning models. In Hal Daumé III and Aarti Singh, editors, Proceedings of the 37th International Conference on Machine Learning, volume 119 of Proceedings of Machine Learning Research, pages 6950–6960. PMLR, 13–18 Jul 2020. URL https://proceedings.mlr.press/v119/mirzasoleiman20a.html.
 - Ashkan Yousefpour, Igor Shilov, Alexandre Sablayrolles, Davide Testuggine, Karthik Prasad, Mani Malek, John Nguyen, Sayan Ghosh, Akash Bharadwaj, Jessica Zhao, Graham Cormode, and Ilya Mironov. Opacus: User-friendly differential privacy library in PyTorch. arXiv preprint arXiv:2109.12298, 2021
+- https://github.com/decile-team/cords
 
